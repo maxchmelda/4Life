@@ -43,63 +43,6 @@ This project consists of a full-stack web application that displays information 
     └── package.json
 ```
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js (v14 or higher)
-- npm or yarn
-- Discord Bot Token
-- Discord Channel ID
-
-### Installation
-
-1. Clone the repository
-2. Install dependencies for both client and server:
-
-```bash
-# Install client dependencies
-cd client
-npm install
-
-# Install server dependencies
-cd ../server
-npm install
-```
-
-### Configuration
-
-1. Create a `.env` file in the `server/` directory:
-
-```env
-BOT_TOKEN=your_discord_bot_token
-CHANNEL_ID=your_discord_channel_id
-```
-
-2. Create a `.env` file in the `client/` directory:
-
-```env
-VITE_URL=http://localhost:3001/api/messages
-```
-
-### Running the Application
-
-1. Start the backend server:
-
-```bash
-cd server
-npm start
-```
-
-2. Start the frontend development server:
-
-```bash
-cd client
-npm run dev
-```
-
-The website will be available at `http://localhost:5173` (or the port shown in the terminal).
-
 ## Discord Integration
 
 The backend server connects to Discord as a bot and:
@@ -119,6 +62,3 @@ npm run build
 # The built files will be in client/dist/
 ```
 
-## License
-
-ISC
