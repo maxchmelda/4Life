@@ -52,13 +52,4 @@ The backend server connects to Discord as a bot and:
 - Provides an API endpoint (`/api/messages`) that returns the latest 3 messages
 - The frontend polls this endpoint every 5 seconds to display updates
 
-## Build for Production
-
-```bash
-# Build the frontend
-cd client
-npm run build
-
-# The built files will be in client/dist/
-```
 
