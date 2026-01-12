@@ -4,7 +4,7 @@ A modern website for a GTA V FiveM roleplay gaming server with real-time Discord
 
 ## Overview
 
-This project consists of a full-stack web application that displays information about the gaming server and integrates with Discord to show messages from an info channel directly on the website.
+This project consists of a full-stack web application that displays information about the gaming server and integrates with Discord to show messages from an info channel directly on the website. Live <a href="https://4life.games">here!</a>
 
 ## Features
 
